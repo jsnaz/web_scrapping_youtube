@@ -21,13 +21,8 @@ videos = driver.find_elements_by_id("video-title")
 
 print(subs_count)
 print(channel_title)
-
 print(str(len(videos)) + " videos")
 
-last_video = videos[-1]
-last_video.location_once_scrolled_into_view
-videos = driver.find_elements_by_id("video-title")
-print(str(len(videos)) + " videos")
 
 
 
